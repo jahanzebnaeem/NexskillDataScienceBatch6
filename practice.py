@@ -77,18 +77,42 @@
 #     out.append(item**2)
 # print(out)
 
-def addEvenOnly(num1,num2):
-    """
-    INPUT: Two numbers
-    OUTPUT: False if both numbers are not even,
-    the sum if both numbers ar even
-    """
-    if (num1 % 2!=0) or (num2 % 2 != 0):
-        return False
-    else:
-        return num1+num2
+# def addEvenOnly(num1,num2):
+#     """
+#     INPUT: Two numbers
+#     OUTPUT: False if both numbers are not even,
+#     the sum if both numbers ar even
+#     """
+#     if (num1 % 2!=0) or (num2 % 2 != 0):
+#         return False
+#     else:
+#         return num1+num2
+#
+# x = addEvenOnly(1,2)
+# y = addEvenOnly(2,2)
+# print(x)
+# print(y)
+#
+# x = 50
+#
+# def func():
+#     global x
+#     print('This function is now using the global x!')
+#     print('Because of global x is: ', x)
+#     x = 2
+#     print('Ran func(), changed global x to', x)
+#
+# print('Before calling func(), x is: ', x)
+# func()
+# print('Value of x (outside of func()) is: ', x)
 
-x = addEvenOnly(1,2)
-y = addEvenOnly(2,2)
+# print(type(1))
+# print(type([]))
+# print(type({}))
+
+class Sample():
+    pass
+
+x = Sample()
+
 print(x)
-print(y)
