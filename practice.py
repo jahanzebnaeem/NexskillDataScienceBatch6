@@ -33,7 +33,62 @@
 # # print(t.count('one'))
 # # t[0]= 'change'
 # t.append('nope')
+#
+# l = [1,1,2,2,3,4,5,6,1,1]
+#
+# print(set(l))
 
-l = [1,1,2,2,3,4,5,6,1,1]
+# seq = [1,2,3,4,5]
+#
+# # for item in seq:
+# #     print(item)
+#
+# for item in seq:
+#     print('Yep')
 
-print(set(l))
+# ages = {"Sam":3,"Frank":4,"Dan":29}
+#
+# # print(ages['Sam'])
+#
+# for key in ages:
+#     print("This is the key")
+#     print(key)
+#     print("This is the value")
+#     print(ages[key])
+#     print("\n")
+
+# mypairs = [(1,10),(3,30),(5,50)]
+#
+# for tup1,tup2 in mypairs:
+#     print(tup1)
+#     print(tup2)
+
+# print(list(range(5)))
+
+# for i in range(0,10,2):
+#     print(i)
+
+# # Starting with:
+# x = [1,2,3,4]
+#
+# # We could do this:
+# out = []
+# for item in x:
+#     out.append(item**2)
+# print(out)
+
+def addEvenOnly(num1,num2):
+    """
+    INPUT: Two numbers
+    OUTPUT: False if both numbers are not even,
+    the sum if both numbers ar even
+    """
+    if (num1 % 2!=0) or (num2 % 2 != 0):
+        return False
+    else:
+        return num1+num2
+
+x = addEvenOnly(1,2)
+y = addEvenOnly(2,2)
+print(x)
+print(y)
